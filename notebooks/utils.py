@@ -15,6 +15,7 @@ def mkdir_p(path):
 
 def dice_coefficient(Y_pred, Y):
     """
+    This works for one image
     http://stackoverflow.com/a/31275008/116067
     """
     denom = (np.sum(Y_pred == 1) + np.sum(Y == 1))
@@ -23,3 +24,9 @@ def dice_coefficient(Y_pred, Y):
         return 1
     else:
         return 2 * np.sum(Y[Y_pred == 1]) / denom
+
+def average_dice_coefficient(Y_pred, Y):
+    dice_coeffs = []
+    for i in range(Y_pred.shape[0]):
+        dice_coeffs.append(dice_coefficient(Y_pred[i], Y[i]))
+    return np.mean(dice_coeffs)
