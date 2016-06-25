@@ -1,0 +1,2 @@
+Seems to work better with fewer features map when doing the predmap
+upsampling
