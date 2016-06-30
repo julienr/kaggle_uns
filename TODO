@@ -1,0 +1,7 @@
+retry submission 19 but train on ALL patients in train
+
+train one binary network
+
+train a network that should predict ellipse center + size (similar to YOLO)
+
+train a network that, given the ellipse center and the image, tries to generate a human-looking mask
