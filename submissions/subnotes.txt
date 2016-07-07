@@ -1,0 +1,55 @@
+submission 11 - 0.68505
+=============
+This is submission 10 + an morphological close operation (see postprocess_morpho notebook)
+
+submission 13 - 0.66688
+=============
+19/train_fccn_relu
+
+submission 17 - 0.66056
+=============
+22_restart_from_sub11/0_train_fcnn_maxout.ipynb
+
+submission 18 - 0.63071
+=============
+22_restart_from_sub11/1_train_fcnn_relu.sub18.ipynb
+
+submission 19 - 0.65681
+=============
+22_restart_from_sub11/2_train_fcnn_maxout_bn.sub19.ipynb
+
+submission 20 - 0.63599
+=======================
+22_restart_from_sub11/2_train_fcnn_maxout_bn.sub20.ipynb
+
+submission 22,23,24 - 0.63611
+=======================
+22_restart_from_sub11/2_train_fcnn_maxout_nobn.sub21.ipynb - without opencv morphology
+
+0.63611 with bin_thresh = 0.95 (=sub 21)
+0.65601 with bin_thresh = 0.5 (=sub 22)
+0.65426 with bin_thresh = 0 (=sub 24)
+
+submission 25 - 0.65099
+=======================
+23_fcnn_sub25/1_train_fcnn_maxout_nobn.ipynb
+
+submission 26 - 0.66759
+=======================
+24_fcnn_fulltrain/1_train_fcnn_maxout.sub26.ipynb
+
+submission 27 - 0.67807
+=======================
+26_ensemble/0_ensemble_predict.sub27.ipynb
+
+submission 28 - 0.65849
+=======================
+25_fcnn_fulltrain/1_train_fcnn_relu_nobn.ipynb
+
+submission 29 - 0.65486
+=======================
+26_ensemble/0_ensemble_predict.sub27.ipynb
+
+submission 30 - 0.68691
+=======================
+27_fcnn_auxiliary.sub30/1_train_fcnn_auxiliary.sub30.ipynb
