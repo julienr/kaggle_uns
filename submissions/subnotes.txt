@@ -53,3 +53,7 @@ submission 29 - 0.65486
 submission 30 - 0.68691
 =======================
 27_fcnn_auxiliary.sub30/1_train_fcnn_auxiliary.sub30.ipynb
+
+submission 30 - 0.65596
+=======================
+31_fcnn_auxiliary_clean2.sub31/1_train_fcnn_auxiliary.sub31.ipynb
