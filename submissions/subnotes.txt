@@ -52,8 +52,17 @@ submission 29 - 0.65486
 
 submission 30 - 0.68691
 =======================
+outmap, outmap4, outmap8 and outbin
 27_fcnn_auxiliary.sub30/1_train_fcnn_auxiliary.sub30.ipynb
 
-submission 30 - 0.65596
+submission 31 - 0.65596
 =======================
+This has outmap and outmap4
 31_fcnn_auxiliary_clean2.sub31/1_train_fcnn_auxiliary.sub31.ipynb
+
+submission 32 - 0.66525
+=======================
+33_fcnn_auxiliary.relu/1_train_fcnn_auxiliary_relu_zscore.ipynb
+Includes z-score normalisation of data
+Opencv morphology post-processing
+Optimize for 40% mask in kaggle's test
