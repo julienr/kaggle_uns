@@ -78,3 +78,11 @@ submission 34 - 0.68211
 =======================
 train/test split based on patient ids
 35_fcnn_auxiliary.sub34/1_train_fcnn_auxiliary.sub34.ipynb
+
+submission 35 - 0.68223
+=======================
+this is submission 34 + notebooks/_ellipse_clean
+
+submission 36 - 0.68547
+=======================
+this is submission 30 + notebooks/_ellipse_clean
