@@ -73,3 +73,8 @@ submission 33 - 0.66406
 Like submission 30, but trained on data_clean2_128_train.npz
 Opencv morphology post-processing
 Optimize for 40% mask in kaggle's test
+
+submission 34 - 0.68211
+=======================
+train/test split based on patient ids
+35_fcnn_auxiliary.sub34/1_train_fcnn_auxiliary.sub34.ipynb
