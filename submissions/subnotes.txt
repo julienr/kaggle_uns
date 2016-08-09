@@ -86,3 +86,41 @@ this is submission 34 + notebooks/_ellipse_clean
 submission 36 - 0.68547
 =======================
 this is submission 30 + notebooks/_ellipse_clean
+
+submission 37 - 0.68579
+=======================
+this is the notebook of 36_fcnn_auxiliary.sub37
+this is with map_thresh=0.4, bin_thresh=0.35 (39% with masks)
+
+submission 38 - 0.68719
+=======================
+37_fcnn_auxiliary.vary_thresholds/1_predict_from_sub37model.ipynb
+
+same model as submission 37, but with
+map_thresh = 0.4, bin_thresh = 0.5 (37.78% with masks)
+
+submission 39 - 0.68414
+=======================
+37_fcnn_auxiliary.vary_thresholds/1_predict_from_sub37model.ipynb
+
+same model as submission 37, but with
+map_thresh = 0.4, bin_thresh = 0.6 (33.71% with masks)
+
+submission 40 - 0.68675
+=======================
+37_fcnn_auxiliary.vary_thresholds/1_predict_from_sub37model.ipynb
+
+same model as submission 37, but with
+map_thresh = 0.3, bin_thresh = 0.5 (39.16% with masks)
+
+submission 41 - 0.67794
+=======================
+37_fcnn_auxiliary.vary_thresholds/1_predict_from_sub37model.ipynb
+
+same model as submission 37, but with
+map_thresh = 0.5, bin_thresh = 0.5 (34.69% with masks)
+
+submission 42 - 0.69086
+=======================
+38_merge_submissions/merge_11_30_34_38.sub42.ipynb (35.42% with masks)
+
