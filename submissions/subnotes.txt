@@ -124,3 +124,10 @@ submission 42 - 0.69086
 =======================
 38_merge_submissions/merge_11_30_34_38.sub42.ipynb (35.42% with masks)
 
+submission 43 - 0.67686
+=======================
+37_fcnn_auxiliary.vary_thresholds/1_predict_from_sub37model.ipynb
+
+same model as submission 37, but with
+map_thresh = 0.3, bin_thresh = 0.0 (49.22% with masks)
+
