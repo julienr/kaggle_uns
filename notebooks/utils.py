@@ -23,7 +23,7 @@ def dice_coefficient(Y_pred, Y):
         # By definition, see https://www.kaggle.com/c/ultrasound-nerve-segmentation/details/evaluation
         return 1
     else:
-        return 2 * np.sum(Y[Y_pred == 1]) / denom
+        return 2 * np.sum(Y[Y_pred == 1]) / float(denom)
 
 def average_dice_coefficient(Y_pred, Y):
     dice_coeffs = []

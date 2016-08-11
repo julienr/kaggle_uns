@@ -131,3 +131,53 @@ submission 43 - 0.67686
 same model as submission 37, but with
 map_thresh = 0.3, bin_thresh = 0.0 (49.22% with masks)
 
+submission 44 - 0.68870
+=======================
+this is submission 42 with notebooks/ellipse_clean post-processing
+
+NOTE
+====
+There is an error in the fcnn code used for a lot of previous submission :
+
+	# upsample the classif map
+	x = merge([
+		UpSampling2D((2, 2))(outmap4),
+		UpSampling2D((4, 4))(outmap5),
+		pool3
+	    ], mode='concat', concat_axis=1)
+	x = Convolution2D(16, 3, 3, border_mode='same')(pool3)
+
+The conv layer should take x, not only pool3 as input
+
+submission 45 - 0.68420
+=======================
+41_fcnn_auxiliary.correct_topo/1_train_fcnn_auxiliary.ipynb
+
+submission 46 - 0.67410
+=======================
+42_fcnn_auxiliary.correct_topo.pool_upsampling/1_train_fcnn_auxiliary.ipynb
+
+with
+
+map_thresh = 0.4
+bin_thresh = 0.35
+
+submission 47 - 0.67609
+=======================
+42_fcnn_auxiliary.correct_topo.pool_upsampling/1_train_fcnn_auxiliary.ipynb
+
+with
+
+map_thresh = 0.5
+bin_thresh = 0.5
+
+submission 48 - 0.69055
+=======================
+42_fcnn_auxiliary.correct_topo.pool_upsampling/1_train_fcnn_auxiliary.ipynb
+
+modified to remove internal sigmoid activations
+
+with
+
+map_thresh = 0.3
+bin_thresh = 0.5 (37% masks)
