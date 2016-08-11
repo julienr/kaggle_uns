@@ -181,3 +181,9 @@ with
 
 map_thresh = 0.3
 bin_thresh = 0.5 (37% masks)
+
+submission 49 - 0.69167
+=======================
+submission 48 + masks_pca_clean
+using 20 principal components
+
