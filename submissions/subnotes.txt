@@ -187,3 +187,36 @@ submission 49 - 0.69167
 submission 48 + masks_pca_clean
 using 20 principal components
 
+submission 50 - 0.68229
+=======================
+43_fcnn_auxiliary.correct_topo.vary_threshold/1_run_sub_48.ipynb
+
+map_thresh = 0.3
+bin_thresh = 0.3 (45% masks)
+
++ masks_pca_clean
+using 20 principal components
+
+submission 51 - 0.66727
+=======================
+44_fcnn_auxiliary.correct_topo.bigger.all_clean_train/1_train_fcnn_auxiliary.ipynb
+
+map_thresh = 0.5
+bin_thresh = 0.5 (43.10% with masks)
+
+submission 52 - 0.67014
+=======================
+sub 51 + pca clean with 20 principal components
+
+submission 53 - 0.66890
+=======================
+44_fcnn_auxiliary.correct_topo.bigger.all_clean_train/1_train_fcnn_auxiliary.ipynb
+
+map_thresh = 0.5
+bin_thresh = 0.8 (38.60% with masks)
+
++ pca clean with 20 principal components
+
+submission 54 - 0.69237
+=======================
+this is submission 42 + mask pca
