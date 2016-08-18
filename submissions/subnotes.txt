@@ -220,3 +220,48 @@ bin_thresh = 0.8 (38.60% with masks)
 submission 54 - 0.69237
 =======================
 this is submission 42 + mask pca
+
+submission 55 - 0.68870
+=======================
+45_merge_submissions/merge_8_subs.sub55.ipynb
+
+submission 56 - 0.69025
+=======================
+this is submission 55 + mask pca
+
+submission 57 - 0.67852
+=======================
+46_merge_submissions.sub57/merge_3_keep_all.ipynb
++ clean by mask pca
+
+submission 58 - 0.67519
+=======================
+47_fcnn_auxiliary.pool_upsampling/1_train_fcnn_auxiliary.ipynb
+with
+map_thresh = 0.4
+bin_thresh = 0.4 (39.40% with masks)
++ pca clean
+
+submission 59 - 0.67653
+=======================
+like sub58 but with different thresholds
+
+map_thresh = 0.3
+bin_thresh = 0.3 (44.90% with masks)
++ pca clean
+
+submission 60 - 0.67240
+=======================
+similar to sub58 and sub59, but with shorter training (25 epochs)
+48_fcnn_auxiliary.pool_upsampling.25epochs/1_train_fcnn_auxiliary.ipynb
+
+map_thresh = 0.45
+bin_thresh = 0.7 (35.38% with masks)
+
+submission 61 - 0.68374
+=======================
+sub60 but with
+map_thresh = 0.45
+bin_thresh = 0.5 (41.90% with masks)
+
++ pca clean
