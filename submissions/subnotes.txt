@@ -265,3 +265,11 @@ map_thresh = 0.45
 bin_thresh = 0.5 (41.90% with masks)
 
 + pca clean
+
+submission 62 - 0.66106
+=======================
+49_fcnn_auxiliary.pool_upsampling.small/1_train_fcnn_auxiliary.ipynb
+map_thresh = 0.4
+bin_thresh = 0.4 (37.55% with masks)
+
++ pca clean
